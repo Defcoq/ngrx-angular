@@ -1,5 +1,5 @@
 {
-  "name": "localcast-weather",
+  "name": "local-weather",
   "version": "11.0.0",
   "license": "MIT",
   "config": {
@@ -14,7 +14,7 @@
     "style": "import-sort -l \"**/{src,tests,e2e}/**/*.ts\" && prettier --check \"**/{src,tests,e2e}/**/*.{*css,ts}\"",
     "start": "ng serve --port 5000",
     "build": "ng build",
-    "test": "ng test local-weather-app",
+    "test": "ng test local-weather",
     "test:debug": "npm test -- --source-map",
     "test:coverage": "npm test -- --code-coverage",
     "lint": "run-p lint:ts lint:tsc",
@@ -71,7 +71,7 @@
     "rxjs": "^6.6.3",
     "subsink": "^1.0.1",
     "tslib": "^2.0.3",
-    "zone.js": "^0.10.3"
+    "zone.js": "^0.11.1"
   },
   "devDependencies": {
     "@angular-devkit/build-angular": "~0.1100.1",
